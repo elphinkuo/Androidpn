@@ -1,0 +1,25 @@
+<assembly>
+	<id>src</id>
+	<formats>
+		<format>zip</format>
+		<!--<format>tar.gz</format>-->
+	</formats>
+	<fileSets>
+		<fileSet>
+			<directory>.</directory>
+			<outputDirectory></outputDirectory>
+			<excludes>
+				<exclude>**/dist/**</exclude>
+				<exclude>**/target/**</exclude>
+				<exclude>**/doc/**</exclude>
+				<exclude>**/lib/**</exclude>
+				<exclude>.*</exclude>
+				<exclude>.*/**</exclude>
+				<exclude>**.bak</exclude>
+				<exclude>build*</exclude>
+				<exclude>settings.xml</exclude>
+			</excludes>
+			<useDefaultExcludes>true</useDefaultExcludes>
+		</fileSet>
+	</fileSets>
+</assembly>

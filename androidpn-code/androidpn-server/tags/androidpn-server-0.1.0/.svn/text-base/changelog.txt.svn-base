@@ -1,0 +1,15 @@
+ANDROIDPN-SERVER CHANGELOG
+==========================
+http://androidpn.sourceforge.net/
+
+Changes in version 0.1.0 (2010-05-30)
+-------------------------------------
+* Added smack/smackx libraries
+* Added apache vysper xmpp libraries
+* Added ant build scripts 
+
+Changes in version 0.0.1 (2010-04-30)
+-------------------------------------
+* Basic network socket server using apache mina and spring framework
+* Requires maven version 2.0.x  
+* Initial alpha version

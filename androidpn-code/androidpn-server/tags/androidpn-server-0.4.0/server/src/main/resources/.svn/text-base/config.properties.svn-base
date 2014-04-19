@@ -1,0 +1,4 @@
+androidpn.server.version=0.4.0
+androidpn.client.apiKey=1234567890
+admin.console.host=127.0.0.1
+admin.console.port=7070

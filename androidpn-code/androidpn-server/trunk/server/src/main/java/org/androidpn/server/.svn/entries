@@ -1,0 +1,46 @@
+10
+
+dir
+388
+svn://svn.code.sf.net/p/androidpn/code/androidpn-server/trunk/server/src/main/java/org/androidpn/server
+svn://svn.code.sf.net/p/androidpn/code
+
+
+
+2012-02-07T19:41:34.049993Z
+388
+sehnoh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4631a5be-f96c-4e43-8409-b1b998638391
+
+model
+dir
+
+service
+dir
+
+container
+dir
+
+dao
+dir
+
+xmpp
+dir
+
+util
+dir
+

@@ -1,0 +1,6 @@
+# Project
+project.name=androidpn-demoapp
+project.version=0.4.5
+
+# Android SDK
+android.sdk.jar=c:/Android/android-sdk/platforms/android-3/android.jar

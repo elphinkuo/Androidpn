@@ -1,0 +1,80 @@
+10
+
+dir
+388
+svn://svn.code.sf.net/p/androidpn/code/androidpn-server/tags/androidpn-server-0.2.0/server/src/main/java/org/androidpn/server
+svn://svn.code.sf.net/p/androidpn/code
+
+
+
+2010-07-28T04:37:29.262679Z
+190
+sehnoh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4631a5be-f96c-4e43-8409-b1b998638391
+
+model
+dir
+
+service
+dir
+
+dao
+dir
+
+mina
+dir
+
+xmpp
+dir
+
+XmppServer.java
+file
+
+
+
+
+2014-04-18T03:41:46.936860Z
+0d841b566141cea7f93a8911fc9d4369
+2010-07-27T08:17:17.348880Z
+175
+sehnoh
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5489
+
+util
+dir
+

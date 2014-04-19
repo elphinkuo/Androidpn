@@ -1,0 +1,27 @@
+ANDROIDPN-SERVER CHANGELOG
+==========================
+http://androidpn.sourceforge.net/
+
+Changes in version 0.1.2 (2010-07-16)
+-------------------------------------
+* Added Configuration utility classes
+* Added User DAO, Service, Domain Object
+* Added Mina IoBufferWriter
+* Added Mina XmppCodecFactory, XmppDecoder, XmppEncoder
+* Updated Mina IO handler
+
+Changes in version 0.1.1 (2010-06-30)
+-------------------------------------
+* Updated Mina IO handler
+
+Changes in version 0.1.0 (2010-05-30)
+-------------------------------------
+* Added smack/smackx libraries
+* Added apache vysper xmpp libraries
+* Added ant build scripts 
+
+Changes in version 0.0.1 (2010-04-30)
+-------------------------------------
+* Basic network socket server using apache mina and spring framework
+* Requires maven version 2.0.x  
+* Initial alpha version

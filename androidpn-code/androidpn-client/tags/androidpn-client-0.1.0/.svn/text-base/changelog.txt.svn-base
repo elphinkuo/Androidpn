@@ -1,0 +1,16 @@
+ANDROIDPN-CLIENT CHANGELOG
+==========================
+http://androidpn.sourceforge.net/
+
+Changes in version 0.1.0 (2010-05-30)
+-------------------------------------
+* Added asmack(smack/smackx) library
+* Added MainService, ServiceManager
+* Added XmppManager, IQ Extensions, PacketListener, PacketProvider
+* Added Notifier, BroadcastReceiver
+* Updated AndroidManifest.xml
+
+Changes in version 0.0.1 (2010-04-30)
+-------------------------------------
+* Created the basic android app project
+* Initial alpha version

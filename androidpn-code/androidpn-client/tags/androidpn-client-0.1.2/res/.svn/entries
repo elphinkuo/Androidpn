@@ -1,0 +1,46 @@
+10
+
+dir
+388
+svn://svn.code.sf.net/p/androidpn/code/androidpn-client/tags/androidpn-client-0.1.2/res
+svn://svn.code.sf.net/p/androidpn/code
+
+
+
+2010-06-25T06:44:37.150673Z
+65
+sehnoh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4631a5be-f96c-4e43-8409-b1b998638391
+
+values
+dir
+
+drawable
+dir
+
+drawable-hdpi
+dir
+
+drawable-ldpi
+dir
+
+drawable-mdpi
+dir
+
+layout
+dir
+

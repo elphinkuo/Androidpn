@@ -1,0 +1,31 @@
+ANDROIDPN-CLIENT CHANGELOG
+==========================
+http://androidpn.sourceforge.net/
+
+Changes in version 0.1.2 (2010-07-02)
+-------------------------------------
+* Added NotificationDetailsActivity
+* Updated MainReceiver
+* Updated NotificationPacketListener 
+
+Changes in version 0.1.1 (2010-06-30)
+-------------------------------------
+* Added SdkPhoneStateListener, SdkPhoneStateReceiver
+* Added PersistentConnectionListener
+* Added Reconnection thread
+* Added InvalidFormatException
+* Updated MainService, ServiceManager
+* Updated XmppManager, PacketListener
+
+Changes in version 0.1.0 (2010-05-30)
+-------------------------------------
+* Added asmack(smack/smackx) library
+* Added MainService, ServiceManager
+* Added XmppManager, IQ Extensions, PacketListener, PacketProvider
+* Added Notifier, BroadcastReceiver
+* Updated AndroidManifest.xml
+
+Changes in version 0.0.1 (2010-04-30)
+-------------------------------------
+* Created the basic android app project
+* Initial alpha version

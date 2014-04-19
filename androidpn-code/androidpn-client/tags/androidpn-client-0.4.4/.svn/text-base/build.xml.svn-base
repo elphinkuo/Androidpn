@@ -1,0 +1,43 @@
+<project name="build-androidpn-client" default="build" basedir=".">
+
+	<property file="./build.properties" />
+
+	<!-- Global properties -->
+	<property name="src.dir" value="src" />
+	<property name="lib.dir" value="lib" />
+	<property name="target.dir" value="target" />
+	<property name="target.classes.dir" value="target/classes" />
+
+	<!-- Classpath declaration -->
+	<path id="project.classpath">
+		<pathelement path="${target.classes.dir}" />
+		<pathelement path="${android.sdk.jar}" />
+		<fileset dir="${lib.dir}">
+			<include name="**/*.jar" />
+			<include name="**/*.zip" />
+		</fileset>
+	</path>
+
+	<target name="clean">
+		<delete dir="${target.dir}" />
+	</target>
+
+	<target name="compile">
+		<mkdir dir="${target.classes.dir}" />
+		<javac srcdir="${src.dir}" destdir="${target.classes.dir}" debug="true" deprecation="false" optimize="false" failonerror="true">
+			<classpath refid="project.classpath" />
+			<include name="**/client/*.*" />
+		</javac>
+	</target>
+
+	<target name="build" depends="clean, compile">
+		<!--
+		<jar destfile="${target.dir}/${project.name}-${project.version}.jar" basedir="${target.classes.dir}" />
+		-->
+		<jar jarfile="${target.dir}/${project.name}-${project.version}.jar">
+			<fileset dir="${target.classes.dir}" includes="**/*.class" />
+			<zipfileset src="${lib.dir}/asmack.jar" excludes="META-INF/*" />
+		</jar>
+	</target>
+
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="org.androidpn.demoapp" android:versionCode="20100927"
+	android:versionName="0.3.2">
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<activity android:name=".DemoAppActivity" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="org.androidpn.sdk.NotificationDetailsActivity"
+			android:label="Notification Details" android:excludeFromRecents="true">
+		</activity>
+		<service android:enabled="true" android:name="org.androidpn.sdk.MainService"
+			android:label="Notification Service">
+			<intent-filter>
+				<action android:name="org.androidpn.sdk.MainService" />
+			</intent-filter>
+		</service>
+		<receiver android:name="org.androidpn.sdk.MainReceiver">
+			<intent-filter>
+				<action android:name="org.androidpn.sdk.SHOW_NOTIFICATION" />
+				<action android:name="org.androidpn.sdk.NOTIFICATION_CLICKED" />
+				<action android:name="org.androidpn.sdk.NOTIFICATION_CLEARED" />
+				<!--
+					<data android:scheme="notif"
+					android:host="notification.androidpn.org"
+					android:pathPrefix="/1234567890" />
+				-->
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.PACKAGE_ADDED" />
+				<action android:name="android.intent.action.PACKAGE_REMOVED" />
+				<data android:scheme="package" />
+			</intent-filter>
+		</receiver>
+		<meta-data android:name="ANDROIDPN_API_KEY" android:value="1234567890" />
+	</application>
+	<uses-sdk android:minSdkVersion="3" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+</manifest> 
